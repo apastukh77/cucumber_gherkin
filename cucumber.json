@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6052280300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the student is on the registration page in chrome browser",
+            "match": {
+              "location": "Steps.given_the_student_is_on_the_registration_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Student registration with valid data",
+        "description": "",
+        "id": "student-registration;student-registration-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3007652200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the student fills in all mandatory fields with correct data",
+            "match": {
+              "location": "Steps.when_the_student_fills_in_all_mandatory_fields_with_correct_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58940800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the student submits the registration form",
+            "match": {
+              "location": "Steps.and_the_student_submits_the_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130229600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the student should see a registration confirmation",
+            "match": {
+              "location": "Steps.then_the_student_should_see_a_registration_confirmation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3759797400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "Steps.and_the_student_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Student registration",
+    "description": "",
+    "id": "student-registration",
+    "keyword": "Feature",
+    "uri": "testFeatures.feature"
+  }
+]
