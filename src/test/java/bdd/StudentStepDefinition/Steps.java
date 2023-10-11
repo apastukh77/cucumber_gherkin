@@ -6,7 +6,7 @@
 
 package bdd.StudentStepDefinition;
 
-import Student.Student;
+import student.Student;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;

@@ -6,7 +6,7 @@
 
 package pages;
 
-import Student.Student;
+import student.Student;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

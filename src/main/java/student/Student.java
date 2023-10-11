@@ -4,7 +4,7 @@
  * Project Name: cucumber_gherkin
  */
 
-package Student;
+package student;
 
 import java.util.ArrayList;
 import java.util.Arrays;
