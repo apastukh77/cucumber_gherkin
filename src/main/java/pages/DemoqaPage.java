@@ -307,7 +307,11 @@ public class DemoqaPage {
         chooseGenderRadioBtn(student.getGender());
         fillMobileInput(student.getMobileNumber());
         selectDateOfBirthInput(student.getDateOfBirth());
-        fillSubjectInput(student.getSubjects());
+//        fillSubjectInput(student.getSubjects());
+        List<String> subjects = student.getSubjects();
+        for (String subject : subjects) {
+            fillSubjectInput(subject);
+        }
         chooseHobbiesCheckBox(student.getHobbies());
         clickSelectPictureBtn(student.getPicturePath());
         fillCurrentAddressTextArea(student.getCurrentAddress());

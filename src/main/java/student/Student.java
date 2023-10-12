@@ -19,7 +19,9 @@ public class Student {
     private String gender;
     private String mobileNumber;
     private String dateOfBirth;
-    private String subjects;
+//    private String subjects;
+
+    private List<String> subjects;
     private boolean hobbiesSports;
     private boolean hobbiesReading;
     private boolean hobbiesMusic;
@@ -37,7 +39,7 @@ public class Student {
         this.gender = gender;
         this.mobileNumber = mobileNumber;
         this.dateOfBirth = dateOfBirth;
-        this.subjects = subjects;
+        this.subjects = Arrays.asList(subjects.split(",\\s*"));
         this.hobbies = new ArrayList<>(Arrays.asList(hobbiesSports, hobbiesReading, hobbiesMusic));
         this.picturePath = picturePath;
         this.currentAddress = currentAddress;
@@ -101,13 +103,18 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String getSubjects() {
-        return subjects;
-    }
+//    public String getSubjects() {
+//        return subjects;
+//    }
+public List<String> getSubjects() {
+    return subjects;
+}
 
-    public void setSubjects(String subjects) {
+    public void setSubjects(List<String> subjects) {
         this.subjects = subjects;
     }
+
+
 
     public boolean isHobbiesSports() {
         return hobbiesSports;

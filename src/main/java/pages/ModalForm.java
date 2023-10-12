@@ -76,7 +76,8 @@ public class ModalForm {
     }
 
     private void assertSubjectsMatches(Student student, String textContent) {
-        assertEquals(student.getSubjects(), textContent, "Subjects doesn't match.");
+        List<String> subjectsList = Arrays.asList(textContent.split(",\\s*"));
+        assertEquals(student.getSubjects(), subjectsList, "Subjects doesn't match.");
     }
 
     private void assertHobbiesMatches(Student student, String textContent) {

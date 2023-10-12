@@ -25,7 +25,7 @@ public class Steps {
     ModalForm modalForm;
     Student student = new Student("Eleanora", "Stanton", "email@subdomain.domain.com",
             "Female", "7556082311",
-            "10 Sep 1990", "Maths", false, true, true,
+            "10 Sep 1990", "Maths, English", false, true, true,
             "C:/Users/andri/Pictures/1667215431395.jpeg",
             "595 Jamar Forges", "NCR", "Delhi");
 
