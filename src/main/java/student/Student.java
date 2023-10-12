@@ -19,8 +19,6 @@ public class Student {
     private String gender;
     private String mobileNumber;
     private String dateOfBirth;
-//    private String subjects;
-
     private List<String> subjects;
     private boolean hobbiesSports;
     private boolean hobbiesReading;
@@ -103,18 +101,13 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
     }
 
-//    public String getSubjects() {
-//        return subjects;
-//    }
-public List<String> getSubjects() {
-    return subjects;
-}
+    public List<String> getSubjects() {
+        return subjects;
+    }
 
     public void setSubjects(List<String> subjects) {
         this.subjects = subjects;
     }
-
-
 
     public boolean isHobbiesSports() {
         return hobbiesSports;
