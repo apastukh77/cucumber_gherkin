@@ -318,10 +318,6 @@ public class DemoqaPage {
         selectCityInput(student.getCity());
     }
 
-    private void focusOut() {
-        WebElement formNameWebEl = driver.findElement(formName);
-        formNameWebEl.click();
-    }
 
     private WebElement waitElementIsVisible(By locator) {
         if (locator == null) {

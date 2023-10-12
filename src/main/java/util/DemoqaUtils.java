@@ -17,7 +17,7 @@ public class DemoqaUtils {
     }
 
     public void zoomDown() {
-        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("document.body.style.zoom = '0.85'");
     }
 

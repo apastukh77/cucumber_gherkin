@@ -29,7 +29,7 @@ public class Steps {
             "C:/Users/andri/Pictures/1667215431395.jpeg",
             "595 Jamar Forges", "NCR", "Delhi");
 
-    @Given("^the student is on the registration page in chrome browser$")
+    @Given("^the student is on the registration page$")
     public void given_the_student_is_on_the_registration_page_in_chrome_browser() {
         System.out.println("Given the student is on the registration page in chrome browser");
         boolean isDemoqaPage = demoqaPage.openDemoqaPage();
@@ -38,9 +38,6 @@ public class Steps {
         }
     }
 
-    /**
-     * Scenario Outline:  Student registration by selecting different Gender checkbox options checked1
-     */
 
     @When("^the student fills in all mandatory fields with correct data$")
     public void when_the_student_fills_in_all_mandatory_fields_with_correct_data() {
@@ -50,19 +47,19 @@ public class Steps {
 
     @And("^the student submits the registration form$")
     public void and_the_student_submits_the_registration_form() {
-        System.out.println("the student submits the registration form");
+        System.out.println("And the student submits the registration form");
         modalForm = demoqaPage.clickSubmitBtn();
     }
 
     @Then("^the student should see a registration confirmation$")
     public void then_the_student_should_see_a_registration_confirmation() {
-        System.out.println("Tthe student should see a registration confirmation");
+        System.out.println("Then the student should see a registration confirmation");
         modalForm.checkValuesModalForm(student);
     }
 
     @And("^close the browser$")
-    public void and_the_student_close_the_browser() {
-        System.out.println("And the student close the browser");
+    public void and_close_the_browser() {
+        System.out.println("And close the browser");
         TestsHelper.toBeCleared();
         TestsHelper.closeBrowser();
     }

@@ -11,11 +11,11 @@
         "steps": [
           {
             "result": {
-              "duration": 6006274300,
+              "duration": 5611861800,
               "status": "passed"
             },
             "line": 4,
-            "name": "the student is on the registration page in chrome browser",
+            "name": "the student is on the registration page",
             "match": {
               "location": "Steps.given_the_student_is_on_the_registration_page_in_chrome_browser()"
             },
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3193971900,
+              "duration": 3138747000,
               "status": "passed"
             },
             "line": 7,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 67334100,
+              "duration": 61498100,
               "status": "passed"
             },
             "line": 8,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 126746200,
+              "duration": 123242000,
               "status": "passed"
             },
             "line": 9,
@@ -69,13 +69,13 @@
           },
           {
             "result": {
-              "duration": 3771841500,
+              "duration": 3751350900,
               "status": "passed"
             },
             "line": 10,
             "name": "close the browser",
             "match": {
-              "location": "Steps.and_the_student_close_the_browser()"
+              "location": "Steps.and_close_the_browser()"
             },
             "keyword": "And "
           }

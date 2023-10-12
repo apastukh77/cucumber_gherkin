@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 public class TestsHelper {
 
-    public static WebDriver webDriver = CommonActions.createDriver();
+    public static WebDriver webDriver = CommonActions.createDriver("chrome   ");
 
 
     public static void toBeCleared() {

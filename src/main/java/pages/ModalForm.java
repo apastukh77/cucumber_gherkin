@@ -17,7 +17,6 @@ import java.util.*;
 
 public class ModalForm {
     WebDriver driver;
-
     By listOfValuesModalForm = By.xpath("//table/tbody/tr/td[2]");
 
     public ModalForm(WebDriver driver) {
